@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/estilos.css">
+</head>
+
+<body>
+   
+    <div class="container">
+        <div id="pi"><h1>Registro de Alumnos</h1></div>
+        <input type="text" id="nombres" class="caja" placeholder="Nombres">
+        <select name="escuela" id="escuela" class="caja">
+            <option value="0">Seleccionar Escuela</option>
+            <option value="Sistemas">Sistemas</option>
+            <option value="Ambiental">Ambiental</option>
+            <option value="Alimentos">Alimentos</option>
+        </select>
+        <select name="ciclo" id="ciclo" class="caja">
+            <option value="0">Seleccionar Ciclo</option>
+            <option value="I">I</option>
+            <option value="II">II</option>
+            <option value="III">III</option>
+        </select>
+        <input type="email" id="correo" class="caja" placeholder="Correo">
+        <button class="boton color1" onclick="add()">Agregar</button>
+        <button class="boton color2" onclick="listar()">Listar</button>
+       
+    <script src="js/script.js"></script>
+</body>
+
+</html>

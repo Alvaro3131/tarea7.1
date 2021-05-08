@@ -1,0 +1,64 @@
+*{
+    margin: 0 ;
+    padding: 0;
+}
+.container{
+
+ margin: 0 auto;
+ width: 600px;
+ height: 300px;
+ margin-top: 100px;
+
+ 
+ border-radius: 10px; 
+ 
+ border: none;
+
+ border-radius: 5px;
+ border: 2px solid rgb(15, 26, 185);
+ 
+
+}
+input, select{
+    background-color: rgb(255, 255, 255);
+    width: 250px;
+    height: 40px;
+    margin:10px;
+    border: 2px solid rgb(255, 1, 1);
+    border-radius: 5px;
+    margin-top: 20px;
+    
+}
+table{
+    width: 500px;
+    height: 50px;
+    margin:0 auto;
+    border: none;
+}
+
+td{
+    border: 3px solid rgb(95, 255, 108);
+    margin: 0 auto;
+    
+    
+}
+#p{
+    width: 70px;
+}
+.boton{
+    width: 100px;
+    height: 40px;
+    margin-left: 100px;
+    margin-right: 30px;
+    margin-top: 10px;
+}
+h1{
+    text-emphasis: center;
+}
+#pi{
+    text-align: center;
+}
+.b{
+    width: 100px;
+    height: 50px;
+}
